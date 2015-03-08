@@ -1,0 +1,69 @@
+/* This centers my H1 main heading and changes the default color */
+
+h1 {
+    text-align: center;
+    color: #009900;
+}
+
+h2 {
+    padding: -40px;
+    Margin: 0;
+    margin-left: 3%;
+}
+
+h3 {
+    margin: 10px;
+}
+
+/* This changes the default font of the background and the color */
+
+body {
+    font-family: Helvetica;
+    background-color: #0033CC;
+}
+
+/* This code controls the class = lesson formatting. Border Radius rounds the edges of the element */
+/* Padding moves the indention over so the text does not clash with the radius */
+
+.lesson {
+    background-color: #294860;
+    border-radius: 25px;
+    color: white;
+    padding: 10px;
+    margin: 1px;
+}
+
+/* This code sets the font size to 20 pixels, makes it bold, and centers it.*/
+
+.concept-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px;
+    text-align: center;
+    color: #294860;
+}
+
+/* The element inside has a class="concept" and it controls my numbered outline. */
+/* Mainly the light blue background and a matching radius to lesson */
+
+.concept {
+    background-color: #DFEAF1;
+    font-weight: normal;
+    padding: 10px;
+    margin: 1px;
+    border-radius: 25px;
+    color: black;
+    text-align: center
+} 
+
+/* It starts to get a little tricker here. This was the hardest to control for me */
+/* I wanted the text in my bullet points line up vertically and I could not figure out how to do it. */
+
+p {
+    font-size: smaller;
+    font-weight: normal;
+    margin: 0; 
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 15%;
+}
